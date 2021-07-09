@@ -1,0 +1,25 @@
+.profile-container {
+  display: flex;
+}
+
+.image-container .image {
+  border-radius: 50%;
+}
+
+.profile-container .left-side .image-container {
+  flex: 1;
+  /* margin-left: auto;
+    margin-right: auto; */
+  position: relative;
+  vertical-align: middle;
+
+  /* background-color: aqua; */
+}
+
+.profile-container .detail-container {
+  flex: 2;
+  padding-top: 3%;
+  padding-left: 5%;
+
+  /* background-color: beige; */
+}
